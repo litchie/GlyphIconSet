@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7725D541508864500E21CA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7725D531508864500E21CA1 /* UIKit.framework */; };
+		E7725D561508864500E21CA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7725D551508864500E21CA1 /* Foundation.framework */; };
+		E7725D581508864500E21CA1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7725D571508864500E21CA1 /* CoreGraphics.framework */; };
+		E7725D5E1508864500E21CA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E7725D5C1508864500E21CA1 /* InfoPlist.strings */; };
+		E7725D601508864500E21CA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7725D5F1508864500E21CA1 /* main.m */; };
+		E7725D641508864500E21CA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7725D631508864500E21CA1 /* AppDelegate.m */; };
+		E7725D671508864500E21CA1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7725D661508864500E21CA1 /* ViewController.m */; };
+		E7725D6A1508864500E21CA1 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7725D681508864500E21CA1 /* ViewController_iPhone.xib */; };
+		E7725D6D1508864500E21CA1 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7725D6B1508864500E21CA1 /* ViewController_iPad.xib */; };
+		E7725D75150886C000E21CA1 /* GlyphIconSet.m in Sources */ = {isa = PBXBuildFile; fileRef = E7725D74150886C000E21CA1 /* GlyphIconSet.m */; };
+		E7725D811508F50B00E21CA1 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7725D7F1508F50B00E21CA1 /* fontawesome-webfont.ttf */; };
+		E7725D821508F50B00E21CA1 /* glyphish.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7725D801508F50B00E21CA1 /* glyphish.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E7725D4F1508864500E21CA1 /* GlyphIconSetDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlyphIconSetDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7725D531508864500E21CA1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E7725D551508864500E21CA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E7725D571508864500E21CA1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E7725D5B1508864500E21CA1 /* GlyphIconSetDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GlyphIconSetDemo-Info.plist"; sourceTree = "<group>"; };
+		E7725D5D1508864500E21CA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E7725D5F1508864500E21CA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7725D611508864500E21CA1 /* GlyphIconSetDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GlyphIconSetDemo-Prefix.pch"; sourceTree = "<group>"; };
+		E7725D621508864500E21CA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E7725D631508864500E21CA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E7725D651508864500E21CA1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E7725D661508864500E21CA1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E7725D691508864500E21CA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		E7725D6C1508864500E21CA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		E7725D73150886C000E21CA1 /* GlyphIconSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GlyphIconSet.h; path = ../GlyphIconSet/GlyphIconSet.h; sourceTree = "<group>"; };
+		E7725D74150886C000E21CA1 /* GlyphIconSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GlyphIconSet.m; path = ../GlyphIconSet/GlyphIconSet.m; sourceTree = "<group>"; };
+		E7725D7F1508F50B00E21CA1 /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "fontawesome-webfont.ttf"; path = "../../../fonts/fontawesome-webfont.ttf"; sourceTree = "<group>"; };
+		E7725D801508F50B00E21CA1 /* glyphish.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = glyphish.ttf; path = ../../../fonts/glyphish.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7725D4C1508864500E21CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7725D541508864500E21CA1 /* UIKit.framework in Frameworks */,
+				E7725D561508864500E21CA1 /* Foundation.framework in Frameworks */,
+				E7725D581508864500E21CA1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7725D441508864300E21CA1 = {
+			isa = PBXGroup;
+			children = (
+				E7725D591508864500E21CA1 /* GlyphIconSetDemo */,
+				E7725D521508864500E21CA1 /* Frameworks */,
+				E7725D501508864500E21CA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7725D501508864500E21CA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7725D4F1508864500E21CA1 /* GlyphIconSetDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7725D521508864500E21CA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7725D531508864500E21CA1 /* UIKit.framework */,
+				E7725D551508864500E21CA1 /* Foundation.framework */,
+				E7725D571508864500E21CA1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7725D591508864500E21CA1 /* GlyphIconSetDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E7725D7F1508F50B00E21CA1 /* fontawesome-webfont.ttf */,
+				E7725D801508F50B00E21CA1 /* glyphish.ttf */,
+				E7725D621508864500E21CA1 /* AppDelegate.h */,
+				E7725D631508864500E21CA1 /* AppDelegate.m */,
+				E7725D651508864500E21CA1 /* ViewController.h */,
+				E7725D661508864500E21CA1 /* ViewController.m */,
+				E7725D681508864500E21CA1 /* ViewController_iPhone.xib */,
+				E7725D6B1508864500E21CA1 /* ViewController_iPad.xib */,
+				E7725D5A1508864500E21CA1 /* Supporting Files */,
+				E7725D73150886C000E21CA1 /* GlyphIconSet.h */,
+				E7725D74150886C000E21CA1 /* GlyphIconSet.m */,
+			);
+			path = GlyphIconSetDemo;
+			sourceTree = "<group>";
+		};
+		E7725D5A1508864500E21CA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7725D5B1508864500E21CA1 /* GlyphIconSetDemo-Info.plist */,
+				E7725D5C1508864500E21CA1 /* InfoPlist.strings */,
+				E7725D5F1508864500E21CA1 /* main.m */,
+				E7725D611508864500E21CA1 /* GlyphIconSetDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7725D4E1508864500E21CA1 /* GlyphIconSetDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7725D701508864500E21CA1 /* Build configuration list for PBXNativeTarget "GlyphIconSetDemo" */;
+			buildPhases = (
+				E7725D4B1508864500E21CA1 /* Sources */,
+				E7725D4C1508864500E21CA1 /* Frameworks */,
+				E7725D4D1508864500E21CA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlyphIconSetDemo;
+			productName = GlyphIconSetDemo;
+			productReference = E7725D4F1508864500E21CA1 /* GlyphIconSetDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7725D461508864300E21CA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Chaoji Li";
+			};
+			buildConfigurationList = E7725D491508864300E21CA1 /* Build configuration list for PBXProject "GlyphIconSetDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E7725D441508864300E21CA1;
+			productRefGroup = E7725D501508864500E21CA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7725D4E1508864500E21CA1 /* GlyphIconSetDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7725D4D1508864500E21CA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7725D5E1508864500E21CA1 /* InfoPlist.strings in Resources */,
+				E7725D6A1508864500E21CA1 /* ViewController_iPhone.xib in Resources */,
+				E7725D6D1508864500E21CA1 /* ViewController_iPad.xib in Resources */,
+				E7725D811508F50B00E21CA1 /* fontawesome-webfont.ttf in Resources */,
+				E7725D821508F50B00E21CA1 /* glyphish.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7725D4B1508864500E21CA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7725D601508864500E21CA1 /* main.m in Sources */,
+				E7725D641508864500E21CA1 /* AppDelegate.m in Sources */,
+				E7725D671508864500E21CA1 /* ViewController.m in Sources */,
+				E7725D75150886C000E21CA1 /* GlyphIconSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E7725D5C1508864500E21CA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7725D5D1508864500E21CA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E7725D681508864500E21CA1 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7725D691508864500E21CA1 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		E7725D6B1508864500E21CA1 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7725D6C1508864500E21CA1 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7725D6E1508864500E21CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7725D6F1508864500E21CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7725D711508864500E21CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GlyphIconSetDemo/GlyphIconSetDemo-Prefix.pch";
+				INFOPLIST_FILE = "GlyphIconSetDemo/GlyphIconSetDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E7725D721508864500E21CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GlyphIconSetDemo/GlyphIconSetDemo-Prefix.pch";
+				INFOPLIST_FILE = "GlyphIconSetDemo/GlyphIconSetDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7725D491508864300E21CA1 /* Build configuration list for PBXProject "GlyphIconSetDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7725D6E1508864500E21CA1 /* Debug */,
+				E7725D6F1508864500E21CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7725D701508864500E21CA1 /* Build configuration list for PBXNativeTarget "GlyphIconSetDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7725D711508864500E21CA1 /* Debug */,
+				E7725D721508864500E21CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7725D461508864300E21CA1 /* Project object */;
+}
